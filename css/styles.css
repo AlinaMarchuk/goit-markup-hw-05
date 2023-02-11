@@ -41,7 +41,6 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -76,16 +75,15 @@ body {
 /* ======================== COMPONENTS ======================== */
 
 .logo {
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-brand-color);
-
-  margin-right: 76px;
 }
 
 .logo-theme-light {
@@ -97,16 +95,15 @@ body {
 }
 
 .title {
+  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-
   color: var(--dark-color);
-
-  margin-bottom: 72px;
 }
 /* ============================= Header =========================== */
 
@@ -161,6 +158,7 @@ body {
   display: block;
   width: 100%;
   height: 4px;
+
   border-radius: 2px;
   background-color: var(--pressed-state-color);
 }
@@ -198,35 +196,33 @@ body {
 /* =================================== Hero ========================== */
 
 .hero {
-  background-color: rgba(46, 47, 66, 0.7);
-  text-align: center;
-
-  padding-top: 188px;
-  padding-bottom: 188px;
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/bg.jpg);
   background-repeat: no-repeat;
+  background-color: rgba(46, 47, 66, 0.7);
+
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
+  text-align: center;
 }
 
 .hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-
-  text-align: center;
-
-  color: var(--button-color);
-
   width: 495px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--button-color);
 }
 
 .modal-btn {
@@ -246,7 +242,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   color: var(--button-color);
   background-color: var(--primary-brand-color);
   cursor: pointer;
@@ -269,14 +264,13 @@ body {
 }
 
 .advantages-subtitle {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--dark-color);
-
-  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -289,12 +283,12 @@ body {
   justify-content: center;
   align-items: center;
 
+  margin-bottom: 8px;
   width: 264px;
   height: 112px;
+
   border-radius: 4px;
   background-color: var(--light-mode-color);
-
-  margin-bottom: 8px;
 }
 
 /* =============================== About work ========================== */
@@ -338,20 +332,20 @@ body {
 }
 
 .team-subtitle {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--dark-color);
-
-  margin-bottom: 8px;
 }
 
 .team-position {
+  margin-bottom: 8px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .social-list {
@@ -400,8 +394,8 @@ body {
 
   width: 168px;
   height: 88px;
-  color: var(--subtext-color);
 
+  color: var(--subtext-color);
   border: 1px solid var(--subtext-color);
   border-radius: 4px;
 }
@@ -429,6 +423,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   margin-bottom: 72px;
 }
 
@@ -455,7 +450,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   color: var(--primary-brand-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -502,7 +496,7 @@ body {
 
 .overlay-text {
   position: absolute;
-  transform: translatey(100%);
+  transform: translateY(100%);
   transition: transform var(--transition-duration-func);
 
   top: 0;
@@ -514,25 +508,23 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--light-mode-color);
   background-color: var(--primary-brand-color);
 }
 
 .project-link:hover .overlay-text,
 .project-link:focus .overlay-text {
-  transform: translatey(0);
+  transform: translateY(0);
 }
 
 .project-card-title {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--dark-color);
-
-  margin-bottom: 8px;
 }
 
 .project-card-text {
@@ -572,7 +564,6 @@ body {
 
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--accent-color);
 }
 
@@ -581,14 +572,13 @@ body {
 }
 
 .media-text {
+  margin-bottom: 16px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--button-color);
-
-  margin-bottom: 16px;
 }
 
 .media-list {
@@ -606,11 +596,67 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .media-link:hover,
 .media-link:focus {
   background-color: var(--success-color);
+}
+
+/* ============================== MODAL WINDOW ========================== */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(46, 47, 66, 0.4);
+
+  transition: opacity var(--transition-duration-func),
+    visibility var(--transition-duration-func),
+    transform var(--transition-duration-func);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(1.2);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 408px;
+  height: 576px;
+
+  background-color: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+  background-color: var(--accent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
