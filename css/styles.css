@@ -40,7 +40,6 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -145,6 +144,10 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.current {
   color: var(--pressed-state-color);
 }
 
@@ -567,15 +570,10 @@ body {
   color: var(--accent-color);
 }
 
-.media {
-  width: 208px;
-}
-
 .media-text {
   margin-bottom: 16px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--button-color);
@@ -583,7 +581,6 @@ body {
 
 .media-list {
   display: flex;
-  justify-content: flex-start;
   gap: 16px;
 }
 
